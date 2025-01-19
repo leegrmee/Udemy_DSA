@@ -1,0 +1,29 @@
+Linked List under the hood
+
+Linked List : 
+-does not have indexes
+-is in noncontiguous place in memory 
+-has a head that points to the first node, tail - the last node , and each node points to the next node
+-last node points to None
+
+
+Node : Value and Pointer make up the Node
+it's essentially a 'dictionary'
+
+
+
+head: 
+{
+    "value": 7, 
+    "next": 
+    {
+        "value": 10,
+        "next": 
+        {
+            "value": 15,
+            "next": None
+        }
+    }
+}
+
+
