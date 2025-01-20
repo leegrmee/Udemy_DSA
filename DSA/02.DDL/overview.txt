@@ -1,0 +1,6 @@
+Double Linked List
+data structure that consists of a set of nodes, each of which contains a value and two pointers, 
+one pointing to the previous node in the list and one pointing to the next node in the list. 
+
+The main advantage of a doubly linked list is that 
+it allows for efficient traversal of the list in both directions.
