@@ -1,0 +1,44 @@
+*Terminology
+
+-Full/Full Tree : Every node has either 0 or 2 nodes
+-Perfect Tree : Any level in the tree that has any nodes is completely filled all the way across
+-Complete Tree : All levels are filled except the last level, which is filled from left to right
+
+-Parent Node : A node that has at least one child Node
+-Child Node : A node that has a parent Node
+-Sibling : A group of nodes that have the same parent
+-Leaf Node : A node that has no children
+
+Every node only has one parent
+Child nodes can be a parent node 
+
+
+Binary Tree : A tree where each node has at most 2 children
+Binary Search Tree : 
+A binary tree where the left child is always less than the parent node and the right child is always greater than the parent node
+
+
+*Time Complexity
+-the perfect scenario is when the tree is a perfect tree, O of log n
+
+
+But if tree never folks, it is essentially a linked list 
+so Big O of Binary Search Tree, technically, is O of n
+
+However, we assume that the tree is going through the straing line, 
+and we treat it as O of log n (O(log n)).
+
+
+*Big O
+Q. Which one is better between Binary Search Tree and Linked List if we need to add data to the data structure very quickly 
+and retrieve data is not a priority?
+
+A. Linked List is better because it is O of 1.
+
+
+Linked List vs Binary Search Tree
+
+insert() :  LL > BST
+lookup() :  BST > LL
+remove() :  BST > LL
+
