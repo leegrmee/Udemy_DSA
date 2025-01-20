@@ -1,0 +1,19 @@
+Stack
+LIFO
+
+- let's say we have a web browser and we go to Facebook, then we go to Google, then we go to Youtube, then we go to Twitter.
+- if we want to go back to the previous page, we can use the back button.
+- this is because the web browser uses a stack to keep track of the pages we have visited.
+- the back button pops the last page from the stack and shows it to us.
+- this is a LIFO (Last In First Out) data structure.
+
+Stacks are commonly implemented with either Lists or Linked Lists.
+implement a stack using a list
+- add, remove at the end= O of 1
+- add, remove on the other end = O of n <- reindexing is needed
+
+implement a stack using a linked list
+- the first node should be the top of the stack so that add and remove are O of 1
+
+*Big O 
+Both pushing onto and popping from a Stack is O(1).
