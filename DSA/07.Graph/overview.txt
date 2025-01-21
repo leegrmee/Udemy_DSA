@@ -1,0 +1,48 @@
+vertex(pl. vertices)
+edge 
+-can be weighted or unweighted
+-can be bidirectional or unidirectional
+(cf. have egde with other vertex)
+
+Representations of Graphs
+1. Adjacency Matrix(인접 행렬)
+  - fill with 1 or 0, 1 means there is an edge between two vertices
+  - if the edge is weigthed, fill with the weight of the edge instead of 1
+  - 45 degree line of zeros means that the vertex is not connected to itself
+
+2. Adjacency List(인접 리스트) (using dictionary)
+  - {'A': ['B', 'C']}
+
+The biggest difference between Adjacency Matrix and Adjacency List is the space complexity.
+In the Adjacency Matrix, each vertex has to store even the vertices that it is connected to.
+
+In the Adjacency List, each vertex only stores the vertices that it is connected to.
+
+So from a space complexity perspective, the matrix is the number of vertices squared, 
+while the list is the number of vertices plus the number of edges.
+
+
+
+Big O
+V : vertices
+E : edges
+- Add vertex: 
+  - Adjacency Matrix: O(V^2)
+  - Adjacency List: O(1)
+
+- Add edge: 
+  - Adjacency Matrix: O(1)
+  - Adjacency List: O(1)
+
+- Removal of edge: 
+  - Adjacency Matrix: O(1)
+  - Adjacency List: O(|E|)
+
+- Removal of vertex: 
+  - Adjacency Matrix: O(V^2)
+  - Adjacency List: O(|V| + |E|)
+    : because we have to remove the vertex from all the other vertices that it is connected to.
+
+- Searching: 
+  - Adjacency Matrix: O(V^2)
+  - Adjacency List: O(|V| + |E|)
