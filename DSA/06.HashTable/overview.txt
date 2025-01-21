@@ -1,0 +1,33 @@
+Hash Tables
+
+key words:
+1. One way to store data 
+2. Deterministic 
+
+collision:
+collision happens when you put a key-value pair at an adress where there is already a another key-value pair.
+
+resolution:
+1. separate chaining
+    -> 각각의 버킷에 연결 리스트를 사용하여 충돌을 해결하는 방법
+ 
+2. linear probing(open addressing)
+    -> 충돌이 발생하면 다음 버킷으로 이동하여 비어있는 버킷을 찾는 방법
+    -> there is no bucket where more than one key-value pair at any address.
+
+
+Big O
+
+for a given key of a certaisize, it will always be the same number of operations to caculate the hash.
+That means Hash method itself is O(1)
+
+The worst scenario is that every key-value pair is stored in the same bucket.
+That means the time complexity of get_item is O(n)
+But, the assumption is that the keys are uniformly distributed.
+
+-Both Insert and Lookup by key in a Hash Table is O(1)
+-Since a Hash Table is O(1) for Insert and Lookup it is always better than a Binary Search Tree: FALSE
+ >Binary Search Trees are sorted which makes them better at searching for all values that fall within a range.
+-Looking up a value in a Hash Table is O(1): FALSE
+ > Key lookup is O(1) but not value.
+ 

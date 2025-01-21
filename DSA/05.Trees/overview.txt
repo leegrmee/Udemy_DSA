@@ -30,6 +30,19 @@ and we treat it as O of log n (O(log n)).
 
 
 *Big O
+
+An insert into a Binary Search Tree is typically (log n). Appending an item onto the end of a Linked List is O(1)..
+
+Binary Search Trees use divide and conquer:
+Divide and Conquer is what makes lookup so much faster than with data structures like Linked Lists.
+
+Adding an item to a Binary Search Tree is always log n: -> False
+Omega (best case) and Theta (average case) are both (log n).
+However, worst case is O(n) and Big O measures worst case. 
+The typically treat Binary Search Trees as O(log n) but technically they are O(n). 
+
+
+
 Q. Which one is better between Binary Search Tree and Linked List if we need to add data to the data structure very quickly 
 and retrieve data is not a priority?
 
