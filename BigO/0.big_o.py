@@ -7,6 +7,21 @@
 # Space complexity is a way of describing how much memory a function uses.
 
 """
+When discussing time complexity, we utilize three primary concepts: Omega (Ω), Theta (Θ), and Big O (O).
+Omega (Ω) represents the best-case scenario, indicating the lower bound of an algorithm's running time.
+Theta (Θ) describes the average-case scenario, providing a tight bound where the running time grows proportionally with the input size.
+Big O (O) characterizes the worst-case scenario, outlining the upper bound of an algorithm's running time.
+Among these, Big O is the most commonly used measure for time complexity. 
+This is because understanding the worst-case time complexity allows us to 
+guarantee that an algorithm will not exceed a certain time limit, 
+ensuring reliability and efficiency even in the most demanding situations. 
+By focusing on Big O, 
+developers can make informed decisions about the scalability and performance of their functions, 
+ensuring that they perform optimally as input sizes grow.
+"""
+
+
+"""
 O of n squared : Loop witin a loop
 O on n: Propotional
 O of log n :Divide and Conquer/분할 정복
