@@ -1,0 +1,18 @@
+Heap
+is a binary tree / complete tree
+* height of the binary search tree is lon n.
+ >>예를 들어, 노드가 약 8개면, height는 3이다. (2^3 = 8)
+ 
+ 
+ In heap, each node that is higher than its descendants is always greater than its descendants.
+ Different from BST, heap can have duplicate values.
+
+ Max Heap: the greatest value is at the top of the heap.
+ Min Heap: the smallest value is at the top of the heap.
+   >>in this case, all the child nodes are greater than the parent node.
+
+Heaps are not good for searching.
+ >> because there is no order in the heap other than all of the descendants are less than or eqaul to the parent node.
+Heap is useful for sorting the biggest or smallest values and removing it. 
+
+
