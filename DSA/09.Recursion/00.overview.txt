@@ -1,0 +1,13 @@
+Recursion 
+- A fuction is that calls iteself until it dosen't
+- For recursion to work, we need to have a base case and a recursive case.
+- the base case is the condition that stops the recursion.
+- the recursive case is the condition that calls the function again which means the function is repeating itself.
+
+Recap
+The necessary condition for recursion is 
+1) Base case for stop calling itself - if you don't have this, the fucntion will keep calling itself until it crashes =stack overflow
+2) Return satetment to stop the fucntion
+3) Recursive case to get closer to the base case
+
+example: Call Stack, Factorial, Fibonacci, Tree Traversal, etc.

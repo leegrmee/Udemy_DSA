@@ -1,0 +1,36 @@
+Recursive vs. Iterative contains Method in Binary Search Trees
+In a Binary Search Tree (BST), the contains method checks whether a certain value exists within the tree. There are two primary ways to implement this method: recursively and iteratively. Both approaches achieve the same functionality but differ in several aspects, including readability, space complexity, and implementation details.
+
+Iterative Approach:
+The iterative approach involves using a while loop to traverse the tree. This method is straightforward and easy to understand, making it a popular choice for beginners.
+
+Recursive Approach:
+The recursive approach involves calling the contains method on the left or right child of the current node until the value is found or the end of the tree is reached. This method is more complex and requires a deeper understanding of recursion.
+
+
+Differences
+Control Flow:
+    Recursive: Utilizes the call stack to manage traversal.
+    Iterative: Uses a loop to manage traversal explicitly.
+Code Structure:
+    Recursive: Often consists of a helper function to handle recursion (__r_contains) and a public method (r_contains) that initiates the recursion.
+    Iterative: Implements the entire logic within a single method (contains) without additional helper functions.
+
+When to Use Which
+Use Recursive:
+    When code readability and simplicity are prioritized.
+    When working with trees that are guaranteed to be balanced, minimizing recursion depth.
+Use Iterative:
+    When working with very large or unbalanced trees where recursion depth could be a concern.
+    When optimizing for space and avoiding potential stack overflow issues.
+
+Time Complexity:
+Both implemntations have the same time complexity. 
+O of log n for a balanced tree, O of n for a skewed tree.
+
+Space Complexity:
+    Recursive:
+        -Average Case:O(logn) due to the call stack in a balanced BST.
+        -Worst Case: O(n) for a skewed BST, leading to deep recursion.
+    Iterative:
+        -Consistent: O(1) space since it uses a constant amount of additional memory regardless of tree depth.
