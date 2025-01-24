@@ -1,0 +1,14 @@
+Tree Traversla is a way to visit every node in a tree and get the value , put them in a list.
+And then return the list.
+But, notice that tree is not a linear data structure.
+
+Breadth First Search (BFS)
+- Visit every node on the same level before moving on to the next level.
+
+Depth First Search (DFS)
+- Preorder : visit the root and write the value of it, then visit the left, then the right.
+
+- Postorder : visit the node, look left and right, and if there is no left or right, then write the value of it. 
+
+- Inorder : visit the left and writ the value of it, and then visit the right and write the value of it. 
+ it is used to get the value in order which means to write the value in numerical order
