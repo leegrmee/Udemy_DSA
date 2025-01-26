@@ -1,0 +1,19 @@
+break in a half, repeat it until you have a list of one element
+
+break a list in a half
+base case = if length of list is 1
+and then, merge the list
+
+The other sorting algorithms(selection, insertion, bubble) sort the list in place.
+That is to say the original list is sorted 
+
+But with merge sort, the original list stays the same and a new list is created.
+
+Big of
+- Time Complexity: O(n log n)
+ -> The number of operations is log n when the list is broken in a half.
+ -> The number of operations is n when the list is merged. While loop goes through each element one by one to combine these into a list.
+
+- Space Complexity: O(n)
+ -> Space Complexity is O(n) because a new list is created.
+ -> The number of items being stored in memory have been doubled.

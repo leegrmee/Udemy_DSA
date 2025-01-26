@@ -1,0 +1,15 @@
+Quick Sort
+
+- Choose a pivot
+- Compare each element with the pivot 
+- If the element is less than the pivot, put it in the left list
+- If the element is greater than the pivot, put it in the right list
+- Repeat the process for each list
+- Combine the lists
+
+Time Complexity: O(n log n)
+ - The worst case is O(n^2) if you have a sorted list
+ - If you have a sorted list, you can use insertion sort, because it has generally O of n^2, 
+ but it has a best case of O(n) if the list is already sorted.
+
+Space Complexity: O(log n)
