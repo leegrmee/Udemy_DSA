@@ -4,9 +4,9 @@ FIFO
 
 add(enqueue), remove(dequeue) = O of 1
 
-For something to be a queue, you add on one end and remove on the other end
+For something to be a queue, you add on one end and remove from the other end
 
-implemnt a queue using a linked list
+implement a queue using a linked list
 
 - add at the end = O of 1, remove from end = O of n
 - add at the front = O of 1, remove from front = O of 1

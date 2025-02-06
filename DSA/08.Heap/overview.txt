@@ -1,6 +1,6 @@
 Heap
 is a binary tree / complete tree
-* height of the binary search tree is lon n.
+* height of the binary search tree is log n.
  >>예를 들어, 노드가 약 8개면, height는 3이다. (2^3 = 8)
  
  
@@ -12,7 +12,7 @@ is a binary tree / complete tree
    >>in this case, all the child nodes are greater than the parent node.
 
 Heaps are not good for searching.
- >> because there is no order in the heap other than all of the descendants are less than or eqaul to the parent node.
+ >> because there is no order in the heap other than all of the descendants are less than or equal to the parent node.
 Heap is useful for sorting the biggest or smallest values and removing it. 
 
 

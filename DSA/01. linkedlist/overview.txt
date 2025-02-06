@@ -27,3 +27,7 @@ head:
 }
 
 
+when to use?
+- If you don't know the number of elements, i.e. size is not known as LL supports dynamic memory allocation
+- to implement other data structures like stack, queue and trees
+-
