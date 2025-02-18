@@ -4,6 +4,8 @@
 -Perfect Tree : Any level in the tree that has any nodes is completely filled all the way across
 -Complete Tree : All levels are filled except the last level, which is filled from left to right
 
+-A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one
+
 -Parent Node : A node that has at least one child Node
 -Child Node : A node that has a parent Node
 -Sibling : A group of nodes that have the same parent

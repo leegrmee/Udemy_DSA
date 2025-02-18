@@ -1,4 +1,4 @@
-Hash Tables
+ Hash Tables
 
 key words:
 1. One way to store data 
